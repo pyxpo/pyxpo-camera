@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "nativeContract": 2,
+  "name": "camera",
+  "native": "Camera",
+  "ios": {
+    "classes": ["CameraModule"],
+    "infoPlist": {
+      "NSCameraUsageDescription": {
+        "option": "cameraPermission",
+        "default": "Use the camera."
+      },
+      "NSMicrophoneUsageDescription": {
+        "option": "microphonePermission",
+        "default": "Record sound with videos."
+      }
+    }
+  },
+  "android": {
+    "namespace": "dev.pyxpo.modules.camera",
+    "classes": ["dev.pyxpo.modules.camera.CameraModule"],
+    "minSdk": 24,
+    "dependencies": [
+      "androidx.camera:camera-core:1.4.2",
+      "androidx.camera:camera-camera2:1.4.2",
+      "androidx.camera:camera-lifecycle:1.4.2",
+      "androidx.camera:camera-video:1.4.2",
+      "androidx.camera:camera-view:1.4.2",
+      "androidx.lifecycle:lifecycle-runtime:2.8.7",
+      "com.google.mlkit:barcode-scanning:17.3.0"
+    ]
+  }
+}
