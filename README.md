@@ -6,7 +6,7 @@ Vision to read barcodes in image files). Android uses CameraX and ML Kit barcode
 needs no Google Play services.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/pyxpo/pyxpo/main/packages/camera/docs/images/hero.png" width="820" alt="The camera module on Android and iOS: permission status, availability and a CameraView">
+  <img src="https://raw.githubusercontent.com/pyxpo/pyxpo-camera/main/docs/images/hero.png" width="820" alt="The camera module on Android and iOS: permission status, availability and a CameraView">
 </p>
 
 ```python
@@ -114,7 +114,7 @@ def Snap():
 > is never awaited.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/pyxpo/pyxpo/main/packages/camera/docs/images/view.png" width="720" alt="The CameraView on Android and the same screen on the iOS Simulator, which has no camera">
+  <img src="https://raw.githubusercontent.com/pyxpo/pyxpo-camera/main/docs/images/view.png" width="720" alt="The CameraView on Android and the same screen on the iOS Simulator, which has no camera">
 </p>
 
 ## What the screenshots show
