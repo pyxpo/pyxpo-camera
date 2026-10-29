@@ -1,5 +1,7 @@
 # pyxpo-camera
 
+[![CI](https://github.com/pyxpo/pyxpo-camera/actions/workflows/ci.yml/badge.svg)](https://github.com/pyxpo/pyxpo-camera/actions/workflows/ci.yml) [![PyPI](https://img.shields.io/pypi/v/pyxpo-camera)](https://pypi.org/project/pyxpo-camera/) [![Python](https://img.shields.io/pypi/pyversions/pyxpo-camera)](https://pypi.org/project/pyxpo-camera/) [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+
 A live camera preview, photos, videos and barcode scanning for [pyxpo](https://github.com/pyxpo/pyxpo) apps, written in
 Python. The API follows [expo-camera](https://docs.expo.dev/versions/latest/sdk/camera/). iOS uses AVFoundation (and
 Vision to read barcodes in image files). Android uses CameraX and ML Kit barcode scanning with the bundled model, so it
